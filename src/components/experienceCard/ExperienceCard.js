@@ -57,7 +57,7 @@ class ExperienceCard extends Component {
           </div>
           <p
             className="experience-card-description"
-            style={{ color: theme.text }}
+            style={{ color: theme.text, whiteSpace: "pre" }}
           >
             {experience["description"]}
           </p>

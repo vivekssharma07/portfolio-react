@@ -8,7 +8,15 @@ function AnimatedSplash(props) {
     <div className="logo_wrapper">
       <div className="screen" style={{ backgroundColor: props.theme.splashBg }}>
         {/* <LoaderLogo id="logo" theme={props.theme} /> */}
-        <h1>Loading...</h1>
+        <h1
+          style={{
+            color: "white",
+            fontFamily: "Agustina Regular",
+            fontSize: "52px",
+          }}
+        >
+          Loading...
+        </h1>
       </div>
     </div>
   );

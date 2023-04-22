@@ -11,9 +11,9 @@ const seo = {
   description:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   og: {
-    title: "Vivek Sharma Portfolio",
+    title: "Vivek's Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "https://www.linkedin.com/in/vivekssharma07/",
   },
 };
 
@@ -26,20 +26,11 @@ const greeting = {
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
     "https://drive.google.com/file/d/1uQJrXK90HMJ5-ZiXYYRGFqZE-h_nGeHR/view?usp=share_link",
-  portfolio_repository: "https://github.com/vivekssharma07/masterPortfolio",
+  portfolio_repository: "https://github.com/vivekssharma07/portfolio-react",
   githubProfile: "https://github.com/vivekssharma07",
 };
 
 const socialMediaLinks = [
-  /* Your Social Media Link */
-  // github: "https://github.com/vivekssharma07",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
-  // gitlab: "https://gitlab.com/ashutoshhathidara98",
-  // facebook: "https://www.facebook.com/laymanbrother.19/",
-  // twitter: "https://twitter.com/ashutosh_1919",
-  // instagram: "https://www.instagram.com/layman_brother/"
-
   {
     name: "Github",
     link: "https://github.com/vivekssharma07",
@@ -52,12 +43,6 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
-  // {
-  //   name: "YouTube",
-  //   link: "https://youtube.com/c/vivekssharma07",
-  //   fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-  //   backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-  // },
   {
     name: "Gmail",
     link: "mailto:vivekssharma07@gmail.com",
@@ -90,7 +75,7 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡Building responsive website front end using React-Redux",
+        "⚡Building responsive website front end using React-Redux.",
         "⚡Creating application backend in Node, Express.",
       ],
       softwareSkills: [
@@ -150,10 +135,10 @@ const skills = {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on AWS",
+        "⚡Experience working on multiple cloud platforms.",
+        "⚡Hosting and maintaining websites on virtual machine instances along with integration of databases.",
+        "⚡Deploying deep learning models on cloud to use on mobile devices.",
+        "⚡Setting up streaming jobs from DB to Server or vice-versa on AWS.",
       ],
       softwareSkills: [
         {
@@ -197,9 +182,9 @@ const skills = {
       title: "UI/UX Design",
       fileName: "DesignImg",
       skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
+        "⚡Designing highly attractive user interface for mobile and web applications.",
+        "⚡Customizing logo designs and building logos from scratch.",
+        "⚡Creating the flow of application functionalities to optimize user experience.",
       ],
       softwareSkills: [
         {
@@ -237,8 +222,8 @@ const degrees = {
       alt_name: "BPUT",
       duration: "2012 - 2016",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS etc.",
-        "⚡ Apart from this, I have done courses on Full Stack Development and Cloud Computing.",
+        "⚡I have studied basic software engineering subjects like DS, Algorithms, DBMS etc.",
+        "⚡Apart from this, I have done courses on Full Stack Development and Cloud Computing.",
       ],
       website_link: "https://www.bput.ac.in/",
     },
@@ -277,10 +262,11 @@ const experience = {
           logo_path: "cratio.png",
           duration: "Feb 2017 - Dec 2018",
           location: "Chennai, Tamil Nadu",
-          description: `⚡Responsibilities include Software Development based on customer requirements.
+          description: `
+            ⚡Responsibilities include Software Development based on customer requirements.
             ⚡Implementing License Info Tracking features in the product.
             ⚡Implementing Audit Log features in the current product (Tracks all the user activity).
-            ⚡Working in Frontend(Html,Css,Javascript) as well as Backend( Node JS .
+            ⚡Working in Frontend(Html,Css,Javascript) as well as Backend( Node JS ).
             ⚡Responsible for all the GUI related changes and working on new requirement in the existing product.
             ⚡Working on API Integration for AWS (SES,SNS,CloudWatch etc),Elasticemail,Sendgrid.
             ⚡Preparing Script for monitoring AWS Server`,
@@ -294,7 +280,8 @@ const experience = {
           logo_path: "siam-computing.png",
           duration: "Jan 2019 - Dec 2020",
           location: "Chennai, Tamil Nadu",
-          description: `⚡ Responsibilities includes analyzing, architecture design and creating DB schema based on the requirement.
+          description: `
+            ⚡ Responsibilities includes analyzing, architecture design and creating DB schema based on the requirement.
             ⚡Managing all codes in Gitlab and deploy the code using AWS EC2.
             ⚡Implementing microservice architecture.
             ⚡Creating API's for authentication, clinics, doctor, labs and pharmacy management for the app.
@@ -312,7 +299,8 @@ const experience = {
           logo_path: "lti.png",
           duration: "Dec 2020 - Aug 2022",
           location: "Chennai, Tamil Nadu",
-          description: `⚡Working as a Lead Engineer and managing all the code for frontend and backend.
+          description: `
+            ⚡Working as a Lead Engineer and managing all the code for frontend and backend.
             ⚡Implementing Microsoft Graph API for for user login.
             ⚡Implementing API's for creating dynamic database based on the tenants.
             ⚡Taking requirements from business team and implementing the same in app.
@@ -329,10 +317,10 @@ const experience = {
           logo_path: "iqvia.png",
           duration: "Aug 2022 - Present",
           location: "Bengaluru, Karnataka, India",
-          description: `⚡Designed and implemented an API for managing clients' business administration.
+          description: `
+            ⚡Designed and implemented an API for managing clients' business administration.
             ⚡Maintained software products including programs, webpages, and databases.
-            ⚡Performed manual testing to deliver quality assurance and ensure the integrity of solutions in the hands of
-            customers.
+            ⚡Performed manual testing to deliver quality assurance and ensure the integrity of solutions in the hands of customers.
             ⚡Designed a full-stack Web application to support new features and meet the needs of existing clients.`,
           skills:
             "⚡MERN Stack ⚡ Node.js ⚡ MongoDB ⚡ React.js ⚡ TypeScript",
@@ -351,58 +339,6 @@ const projectsHeader = {
   avatar_image_path: "projects_image.svg",
 };
 
-const publicationsHeader = {
-  title: "Publications",
-  description:
-    "I have worked on and published a few research papers and publications of my own.",
-  avatar_image_path: "projects_image.svg",
-};
-
-const publications = {
-  data: [
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNze=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzt=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzb=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-  ],
-};
-
 // Contact Page
 const contactPageData = {
   contactSection: {
@@ -413,9 +349,9 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle: "Kharagpur, Dist.-Paschim Midnapore, West Bengal - 721304",
+    subtitle: "Kharagpur, Dist: Paschim Midnapore, West Bengal - 721304",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
+    location_map_link: "https://goo.gl/maps/rUhdY9FfTwZu5MNN9",
   },
   phoneSection: {
     title: "",
@@ -434,7 +370,5 @@ export {
   certifications,
   experience,
   projectsHeader,
-  publicationsHeader,
-  publications,
   contactPageData,
 };

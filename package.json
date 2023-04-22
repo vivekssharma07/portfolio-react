@@ -1,12 +1,12 @@
 {
   "private": true,
-  "name": "portfolio",
+  "name": "vivek-portfolio",
   "homepage": ".",
   "version": "0.1.0",
   "scripts": {
-    "build": "react-scripts build",
+    "build": "react-scripts --openssl-legacy-provider build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b gh-pages -d build",
+    "deploy": "aws s3 sync build/ s3://vivek-portfolio",
     "eject": "react-scripts eject",
     "start": "react-scripts --openssl-legacy-provider start",
     "test": "react-scripts test"

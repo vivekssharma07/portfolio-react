@@ -25,7 +25,7 @@ To view a live example, **[click here](https://vivekssharma07.github.io/)**
 - In case you want to help developing it or simply saving it, you can fork the repository just by clicking the button on the top-right corner of this page
 - After the successful installation of `nodejs` and `npm`, clone the repository into your local system using below command:
   ```bash
-   git clone https://github.com/vivekssharma07/portfolio.git
+   git clone https://github.com/vivekssharma07/portfolio-react.git
   ```
   This will clone the whole repository in your system.
 - To download required dependencies to your system, navigate to the directory where the cloned repository resides and execute following command:
@@ -165,9 +165,3 @@ If you are stuck somewhere and want to observe the deployment process in depth, 
 - [baseui](https://github.com/uber/baseweb)
 - [react-reveal](https://www.react-reveal.com/)
 - [styled-components](https://styled-components.com/)
-  #   p o r t f o l i o - r e a c t 
-   
-   
-  #   p o r t f o l i o - r e a c t 
-   
-   
