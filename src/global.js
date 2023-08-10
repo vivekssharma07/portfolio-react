@@ -13,7 +13,7 @@ export const GlobalStyles = createGlobalStyle`
     color: ${({ theme }) => theme.text};
     display: flex;
     // flex-direction: column;
-    // justify-content: center;
+    // justify-content: center123;
     // height: 100vh;
     // margin: 0;
     // padding: 0;
